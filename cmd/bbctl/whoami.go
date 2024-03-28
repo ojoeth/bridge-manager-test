@@ -43,6 +43,8 @@ func coloredHomeserver(domain string) string {
 		return color.RedString(domain)
 	case "beeper.localtest.me":
 		return color.YellowString(domain)
+	case "matrix.joeth.uk":
+		return color.GreenString(domain)
 	default:
 		return domain
 	}
