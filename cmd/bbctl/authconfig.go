@@ -21,7 +21,7 @@ var envs = map[string]string{
 	"staging": "beeper-staging.com",
 	"dev":     "beeper-dev.com",
 	"local":   "beeper.localtest.me",
-	"joeth":   "matrix.joeth.uk",
+	"joeth":   "joeth.uk",
 }
 
 type EnvConfig struct {
